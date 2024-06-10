@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #AEC6CF;
+    background-image: url('weather.jpg');
+    /* opacity: 0.5;
+    filter: brightness(50%);  */
+    text-shadow: 1px 1px 2px rgb(6, 6, 6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll; 
+    font-family: Arial, sans-serif;
+}
+#tc{
+    color: black; 
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.one{
+    width: 400px; 
+    height: 100px; /* Set the height of the box */
+    /* background-color: rgb(236, 189, 103); */
+    /* border: 2px solid #0d3a56;  */
+    border-radius: 10px; /* Add rounded corners (optional) */
+    margin: 20px auto; /* Center the box horizontally */
+    padding: 50px; /* Add padding inside the box (optional) */
+    text-align: center; /* Center text horizontally (optional) */
+    color: black;
+    /* color: black;  */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.number{
+    margin: 10px;
+}
+#s1{
+    margin-top: 30px;
+}
+#s2{
+    margin-top: 30px;
+}
+.ten{
+    margin-top: 30px;
+}
+/* .submit{
+    display: flex;
+    justify-content: space-between;
+} */
+ #a{
+    margin-top: 30px;
+} 
+#output{
+    margin-top: 10px;
+}
+.convert{
+    margin: 30px;
+    float: left;
+    margin-right: 15px;
+   border: aliceblue;
+           
+}
+/* .convert:hover{
+    
+} */
+.reset{
+    margin: 30px;
+    float: right;
+    margin-right: 15px;
+    border: aliceblue
+}
+.about{
+    color: aliceblue;
+    /* white-space: nowrap;
+    overflow: hidden; */
+}
+footer{
+    text-align:center;
+    padding: 100px;
+    color: aliceblue;
+}
+.contain{
+    background-color: rgba(32, 9, 9, 0.477);
+    color: white;
+}
